@@ -13,7 +13,7 @@ document.body.appendChild(renderer.domElement);
 
 //create and add geometry to scene
 const geometry = new THREE.BoxGeometry();
-const material = new THREE.MeshBasicMaterial({ color: 0xFF0000 });
+const material = new THREE.MeshBasicMaterial({ color: 0xFFFF00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);   // add to scene
 
