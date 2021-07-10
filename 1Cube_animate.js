@@ -19,7 +19,7 @@ scene.add(cube);   // add to scene
 
 //camera
 const camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 5;
+camera.position.z = 1;
 
 //render
 //renderer.render(scene, camera);
